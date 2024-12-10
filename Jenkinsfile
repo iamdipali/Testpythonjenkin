@@ -10,7 +10,7 @@ pipeline {
         stage('Run Hello World Script') {
             steps {
                 echo 'Running the Hello World Python script...'
-                sh 'python3 Hellojentest.py'  // Use `python` or `python3` as appropriate based on your setup
+                sh 'python Hellojentest.py'  // Use `python` or `python3` as appropriate based on your setup
             }
         }
     }
