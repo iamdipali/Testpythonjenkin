@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning the repository...'
-                git url: 'https://github.com/iamdipali/Testpythonjenkins.git', branch: 'main'
+                git url: 'https://github.com/iamdipali/Testpythonjenkin.git', branch: 'main'
             }
         }
         stage('Run Hello World Script') {
